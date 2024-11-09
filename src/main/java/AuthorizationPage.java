@@ -9,6 +9,7 @@ import static org.junit.Assert.assertTrue;
 
 public class AuthorizationPage {
     private final WebDriver driver;
+    // TODO: Не были добавлены локаторы по причине не доступности сайта и необходимости использования небезопасных VPN
     private final By fieldEmail = By.className(""); // локатор для поля Почта
     private final By fieldPassword = By.className(""); // локатор для поля Пароль
     private final By buttonLogIn = By.className(""); // локатор для кнопки Войти
